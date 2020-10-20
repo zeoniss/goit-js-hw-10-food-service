@@ -1,0 +1,29 @@
+{
+    "name": "goit-js-hw-10-food-service",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "handlebars": "^4.7.6",
+        "json": "^10.0.0",
+        "parcel-bundler": "^1.12.4",
+        "parcel-plugin-handlebars-precompile": "^1.0.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "dev": "parcel src/index.html",
+        "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service/",
+        "predeploy": "npm run build -- --public-url=/goit-js-hw-10-food-service/",
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zeoniss/goit-js-hw-10-food-service.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zeoniss/goit-js-hw-10-food-service/issues"
+    },
+    "homepage": "https://github.com/zeoniss/goit-js-hw-10-food-service#readme"
+}
